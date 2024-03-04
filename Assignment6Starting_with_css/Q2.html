@@ -1,0 +1,44 @@
+<!-- Ques=> Build an HTML page with multiple paragraphs, each assigned a unique class name. Write CSS rules using
+class selectors to apply distinct styling to each paragraph. Follow the BEM naming convention and
+explain how you've named the classes. -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .introduction{
+            color: darkgreen;
+        }
+
+        .section{
+            background-color: deeppink;
+            font-size: xx-large;
+        }
+        .btn{
+            background-color: crimson;
+        }
+        .btn:hover{
+            background-color: blue;
+            border-radius: 45%;
+
+        }
+        .footer{
+            color: chocolate;
+        }
+        .conclusion{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <p class="introduction">This is introduction part</p>
+    <p class="section">This is section part</p>
+    <p class="footer">This is footer part</p>
+    <p class="conclusion">This is conclusion part</p>
+    <button class="btn">Submit</button>
+</body>
+</html>

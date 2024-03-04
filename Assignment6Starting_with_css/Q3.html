@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with css</title>
+    <style>
+        .name{
+            background-color: bisque;
+        }
+        #email{
+            background-color: orange;
+        }
+        .password{
+            background-color: coral;
+        }
+        .age{
+            background-color: darkgreen;
+        }
+        .btn{
+            background-color: chocolate;
+        }
+        .btn:hover{
+            border-radius: 40%;
+            background-color: dimgrey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Forms With CSS</h1>
+    <form method="post">
+        <label for="Name">Name</label>
+        <input type="text" placeholder="Enter Your Name" class="name">
+
+        <br>
+        <label for="Email">Email</label>
+        <input type="email" name="email" id="email" placeholder="Enter your Email">
+
+        <br>
+        <label for="Password">Password</label>
+        <input type="password" name="password" class="password" placeholder="Enter your 4 digit password">
+
+        <br>
+        <label for="Age">Age</label>
+        <input type="number" name="age" class="age" placeholder="Enter age">
+
+        <br>
+        <label for="Gender">Gender</label>
+        <input type="radio" name="Male" id="Male">
+        <label for="Male">Male</label>
+        <input type="radio" name="Female" id="Female">
+        <label for="Male">Female</label>
+        <input type="radio" name="other" id="other">
+        <label for="Male">Other</label>
+
+
+        <br>
+        <label for="Terms and Condition">Terms And Conditions</label>
+        <input type="checkbox" name="tc" id="tc">
+
+        <br>
+        <label for="Submit">Submit</label>
+        <input class="btn" type="button" value="button">
+    </form>
+</body>
+</html>
